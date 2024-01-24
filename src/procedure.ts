@@ -19,7 +19,9 @@ export interface Procedure<Input, Actions extends Record<string, Action<Input>>>
 };
 
 export class Procedure<Input, Actions = {}> {
-    constructor(public readonly vld: Validator<Input>) { }
+    constructor(public readonly vld: Validator<Input>) {
+        this.actions = {} as any;
+    }
 
     fn<
         Name extends string, Output
