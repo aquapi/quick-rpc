@@ -1,9 +1,10 @@
 {
   "name": "quick-rpc",
-  "module": "index.ts",
+  "module": "index.js",
   "type": "module",
   "devDependencies": {
     "@types/bun": "latest",
     "vld-ts": "latest"
-  }
+  },
+  "types": "types/index.d.ts"
 }

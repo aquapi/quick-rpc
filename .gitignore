@@ -173,3 +173,10 @@ dist
 
 # Finder (MacOS) folder config
 .DS_Store
+
+# Lock
+/bun.lockb
+
+# Output files
+/types
+/index.js
